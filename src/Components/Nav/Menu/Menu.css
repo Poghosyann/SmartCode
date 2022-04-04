@@ -1,0 +1,34 @@
+nav ul{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li{
+    position: relative;
+    list-style: none;
+    padding: 10px 0;
+    transition: .3s;
+    text-align: center;
+}
+
+nav ul li::after{
+    position: absolute;
+    content: "";
+    bottom: -10px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #f3b01b;
+    transition: .3s;
+}
+
+nav ul li:hover::after{
+    width: 100%;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #404040;
+}

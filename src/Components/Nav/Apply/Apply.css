@@ -1,0 +1,16 @@
+.apply{
+    padding: 10px 30px;
+    background-color: #f3b01b;
+    border: 1px solid #f3b01b;
+    border-radius: 30px;
+    font-size: 17px;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.apply:hover{
+    background-color: transparent;
+    color: #404040;
+}
