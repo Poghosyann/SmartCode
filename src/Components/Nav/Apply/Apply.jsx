@@ -1,8 +1,8 @@
 import './Apply.css'
 
-function Apply(){
+function Apply(props){
     return (
-        <button className='apply'>Սկսել ուսումը</button>
+        <button className='apply'>{props.name}</button>
     )
 }
 

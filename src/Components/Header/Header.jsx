@@ -11,7 +11,7 @@ function Header(){
                     <b>Դարձի՛ր</b> պահանջված մասնագետ
                 </h1>
                 <p>Որակյալ ուսուցում, անվճար պրակտիկա, երաշխավորված աշխատանք։</p>
-                <Apply />
+                <Apply name="Սկսել ուսումը" />
             </div>
             <img src={headerImg} alt="Header img" />
         </header>
